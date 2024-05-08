@@ -1,0 +1,183 @@
+
+
+.form {
+  width: 60px; /* Cambiado al 50% para ajustar mejor */
+  margin: auto;
+  padding-top: 90px;
+}
+
+.col-md-6 {
+
+  width: 30%; /* Cada contenedor ocupa la mitad del ancho del contenedor padre */
+  vertical-align: top; /* Alinear los contenedores en la parte superior */
+}
+
+.btn-color {
+  background-color: #ff6666;
+  border: none;
+}
+
+
+
+.form-label {
+  color: white; /* Color de texto blanco */
+
+}
+.card-rounded {
+  max-width: 400px;
+  margin: 50px auto;
+  border-radius: 15px; /* Bordes redondeados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  padding: 30px; /* Añadir espacio interno */
+  background-color:  #40A2D8; 
+}
+.form-control {
+  margin-bottom: 20px; /* Espaciado entre cada campo */
+}
+.card-title {
+  margin-top: -15px;
+  background: linear-gradient(0.3deg, rgb(2, 107, 255) 0.9%, rgb(22, 172, 231) 88.6%);
+  box-shadow: 1px 5px 15px #a2a2a2;
+  font-size: 25px;
+  color: white; /* Color del texto del encabezado */
+  margin-bottom: 20px;
+  display: flex; /* Hacer que el contenedor sea un flexbox */
+  align-items: center; /* Centrar verticalmente los elementos */
+  justify-content: justify; /* Centrar horizontalmente los elementos */
+  text-align: center;
+  border-radius: 10%; /* Hacer que los bordes sean redondos */
+}
+.custom-button {
+
+  border: none; /* Sin borde */
+  color: #000; /* Color del texto */
+  padding: 2px 120px; /* Espaciado interno */
+  text-align: center; /* Alineación del texto */
+  text-decoration: none; /* Sin decoración de texto */
+  display: inline-block; /* Mostrar como un bloque */
+  font-size: 16px; /* Tamaño de fuente */
+  margin: 4px 2px; /* Margen */
+  cursor: pointer; /* Cambiar cursor al pasar el ratón */
+  border-radius: 8px; /* Borde redondeado */
+  transition-duration: 0.4s; /* Duración de la transición */
+}
+
+.custom-button:hover {
+  
+  color: #000; /* Cambiar el color del texto en el hover */
+background-image: linear-gradient(to left, #ffc048, #ffd32a, #ff3f34);
+
+}
+#resultadoDA {
+position:relative;
+margin-top: -340px; /* Mueve el elemento hacia arriba */
+margin-left:500px;
+color:azure;
+border: 2px solid #ccc; /* Borde alrededor de la tarjeta */
+background-color: #ff0000; /* Fondo rojo */
+padding: 20px; 
+max-height: 200px;
+max-width: 400px;
+border-radius: 10px; 
+}
+
+
+#resultado {
+position:relative;
+left: 500px;
+bottom: 800px;
+z-index: 999; /* Ajusta el índice z para asegurarse de que esté por encima de otros elementos */
+color: azure;
+border: 2px solid #ccc;
+background-color: #ff0000;
+padding: 20px;
+max-height: 200px;
+max-width: 400px;
+border-radius: 10px;
+}
+
+
+.triangulo {
+width: 0;
+height: 0;
+border-bottom: 200px solid #58D68D ; /* Altura del triángulo */
+border-right: 300px solid transparent; /* Base del triángulo */
+position: absolute; /* Cambio a posicionamiento absoluto */
+top: 200px; /* Ajuste de la posición vertical */
+left: 80%; /* Centra el triángulo horizontalmente */
+transform: translateX(-50%); /* Centra el triángulo horizontalmente */
+
+}
+
+.triangulo img {
+position: absolute;
+top: 200px; /* Ajusta la posición vertical de la imagen */
+left: 320px; /* Centra la imagen horizontalmente */
+transform: translateX(-50%); /* Centra la imagen horizontalmente */
+width: 100px; /* Cambia el ancho de la imagen */
+height: auto; /* Mantiene la proporción de aspecto */
+}
+#a{
+position: absolute;
+top: 198px; /* Ajusta la posición vertical de la imagen */
+left: 100px;
+color:white;
+font-size:40px;
+}
+#b{
+position: absolute;
+top: 60px; /* Ajusta la posición vertical de la imagen */
+left: -32px;
+color:white;
+font-size:40px;
+}
+#r{
+position: absolute;
+top: 50px; /* Ajusta la posición vertical de la imagen */
+left: 160px;
+color:white;
+font-size:40px;
+}
+.titulo-grafico {
+
+font-size: 24px;
+font-weight: bold;
+color: #fff; /* Cambiamos el color del texto a blanco */
+background-color: #00a2ff; /* Cambiamos el color de fondo */
+padding: 10px 20px; /* padding */
+border-radius: 20px; /* aumentamos el radio de los bordes */
+box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* sombra más pronunciada */
+text-align: center; /* centrar el texto */
+display: inline-block; /* para que el div ocupe solo el espacio necesario */
+text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* sombra en el texto */
+margin-top: -350px;
+margin-left: 100px;
+}
+
+.card-custom3 {
+background-color: #f8f9fa; /* Color de fondo personalizado para la tarjeta */
+max-width: 330px; /* Ancho máximo de la tarjeta */
+padding: 20px; /* Agregar espacio interno a la tarjeta */
+border-radius: 10px; /* Agregar bordes redondeados */
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Agregar una sombra */
+position: absolute; /* Establecer posición absoluta */
+left: 710px; /* Posición horizontal */
+top: 550px; /* Posición vertical */
+height: 480px;
+color: #000; /* Cambia el color del texto si es necesario */
+}
+
+.card-custom3:hover{
+color:#000;
+}
+.card-custom .card-body {
+padding: 20px 0; /* Agregar espacio interno al cuerpo de la tarjeta */
+}
+
+.card-custom .form-group label {
+font-weight: bold; /* Hacer el texto de las etiquetas en negrita */
+}
+
+.card-custom .form-group {
+margin-bottom: 30px; /* Agregar margen inferior a las cajas de texto */
+}
